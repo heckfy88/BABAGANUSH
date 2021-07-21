@@ -1,0 +1,56 @@
+ .header {
+     /*background-color: red;*/
+     display: flex;
+     width: 100%;
+ }
+.header-container {
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.ul {
+    /*background-color: coral;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul li {
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    align-items: center;
+    font-family: "SK Payidar", serif;
+}
+.ul li a span{
+    /*background-color: white;*/
+    vertical-align: center;
+    font-size:  1.5vw;
+    font-family: "SK Payidar", serif;
+
+}
+.logo {
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+.logo-container {
+    /*background-color: chocolate;*/
+    display: block;
+    margin: auto;
+}
+@font-face {
+    font-family: SK Payidar;
+    src: url("fonts/Salih Kizilkaya - SK Payidar Medium.ttf") format("opentype");
+}
+.logo-photo {
+    width: 12vw;
+    height: auto;
+}
+.cart_wheels {
+    width: 3vw;
+    height:auto;
+}
